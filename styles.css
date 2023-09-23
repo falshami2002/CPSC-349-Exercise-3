@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 350px;
     height: 500px;
-    background-color: rgb(194, 194, 194);
+    background-color: rgb(175, 175, 175);
 }
 
 .display-container {
@@ -17,8 +17,19 @@
 .display {
     width: 90%;
     height: 65%;
-    background-color: rgb(237, 237, 237);
+    background: linear-gradient(to bottom, rgb(228, 228, 228) 50%, rgb(211, 211, 211) 50%);
+    border-radius: 5px;
+    box-shadow: -1px 1px white, inset 0px 0px 15px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.display p {
+    width: 90%;
+    font-size: 30px;
+    text-align: right;
+} 
 
 .bottom-container {
     width: 100%;
@@ -41,14 +52,22 @@
 .btn {
     width: 70px;
     height: 70px;
-    background-color: rgb(237, 237, 237);
-    border-radius: 10px;
+    background: linear-gradient(to bottom, rgb(228, 228, 228) 50%, rgb(211, 211, 211) 50%);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    box-shadow: inset -2px 2px rgb(233, 233, 233), 0 0 3px black;
+    cursor: pointer;
 }
 
 .c-btn {
-    background-color: red;
+    background: linear-gradient(to bottom, rgb(255, 29, 29) 50%,rgb(226, 28, 28) 50%);
+    color: white;
 }
 
 .func-btn {
-    background-color: black;
+    background: linear-gradient(to bottom, rgb(44, 44, 44) 50%, rgb(19, 19, 19) 50%);
+    color: white;
 }
