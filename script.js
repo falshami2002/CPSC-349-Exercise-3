@@ -16,7 +16,7 @@ btns.forEach(btn => btn.addEventListener("click", event => {
         equ.innerHTML = "";
     }
     else if (op.includes("=")) {
-        equ.innerHTML = evaluate(equ.innerHTML);
+        equ.innerHTML = parseFloat((evaluate(equ.innerHTML)).toFixed(2));
     }
     else {
         equ.innerHTML += op;
